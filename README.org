@@ -1,0 +1,5 @@
+* Clojure Releases
+
+** Goals
+*** Releases happen when a tag is pushed
+*** Releases don't make any additional commits
