@@ -10,6 +10,7 @@
                               :username :env/clojars_username
                               :password :env/clojars_password
                               :sign-releases false}]]
+  :dependencies [[org.clojure "1.8.0"]]
   :target-path "target/%s"
   :main dummy.main
   :profiles {:uberjar {:aot :all}})
