@@ -10,7 +10,11 @@ script:
  - lein check
 
 deploy:
-  provider: script
-  script: scripts/deploy.sh
-  on:
-    tags: true
+  - provider: script
+    script: scripts/deploy.sh
+    on:
+      tags: true
+  - provider: script
+    script: scripts/deploy.sh
+    on:
+      all_branches: true
