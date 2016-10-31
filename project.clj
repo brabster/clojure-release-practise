@@ -1,5 +1,5 @@
-(defproject org.clojars.brabster/clojure-release-practice (or (System/getenv "PROJECT_VERSION") "0.0.0.SNAPSHOT")
-  :description "Better releases"
+(defproject org.clojars.brabster/clojure-release-practice (or (System/getenv "PROJECT_VERSION") "0.0.0-SNAPSHOT")
+  :description "Better releases inspired by releases-on-steroids"
   :url "http://github.com/brabster/clojure-release-practice"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
